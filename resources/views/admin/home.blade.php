@@ -30,23 +30,22 @@
             An example warning alert with an icon
         </div>
         </div>
-        <div class="alert alert-danger d-flex align-items-center" role="alert">
+        <div class="alert alert-danger alert-dismissible fade show d-flex align-items-center" role="alert">
             <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
             <div>
                 An example danger alert with an icon
             </div>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div> -->
 
 
 
-    <h1>Admin Page</h1>
-
-    <div class="row row-cols-1 p-2 row-cols-md-5 g-4">
+    <div class="row row-cols-1 p-2 row-cols-md-6 g-5 d-flex justify-center">
         <div class="col">
             <div class="card h-100">
             <img src="https://freesvg.org/img/publicdomainq-medicine-doctor-man-talking.png" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title h5 text-center">Outgoing referals</h5>
             </div>
             </div>
         </div>
@@ -58,25 +57,10 @@
             </span>
                 <img src="https://freesvg.org/img/publicdomainq-medicine-doctor-man-talking.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title h4 text-center">Refer</h5>
+                    <h5 class="card-title h5 text-center">Incoming Referals</h5>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card h-100">
-            <img src="https://freesvg.org/img/publicdomainq-medicine-doctor-man-talking.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-            <img src="https://freesvg.org/img/publicdomainq-medicine-doctor-man-talking.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-            </div>
-            </div>
-        </div>
+        
     </div>
 </x-app-layout>
